@@ -1,6 +1,6 @@
 # GitHub User Search App
 
-This iOS application allows users to search for GitHub profiles, view profile details, browse public repositories, and manage a list of bookmarked users. The app is built using SwiftUI and follows the MVVM architecture. It uses Core Data for local persistence and the GitHub REST API for data retrieval.
+This iOS application allows users to search for GitHub profiles, view profile details and manage a list of favorite users. The app is built using SwiftUI and follows the MVVM architecture. It uses Core Data for local persistence and the GitHub REST API for data retrieval.
 
 ---
 
@@ -11,6 +11,7 @@ This iOS application allows users to search for GitHub profiles, view profile de
   - Avatar
   - Username
   - Bio
+  - Repos
   - Number of followers
   - Number of public repositories
   - Account creation date
@@ -21,8 +22,8 @@ This iOS application allows users to search for GitHub profiles, view profile de
   - Fork count
 - Pull to refresh
 - Infinite scroll for repositories (pagination)
-- Bookmark and unbookmark users
-- Swipe to delete bookmarked users
+- favorite and unfavorite users
+- Swipe to delete favorite users
 - Offline caching of repositories using Core Data
 - Responsive UI with support for Light and Dark modes
 
@@ -32,7 +33,7 @@ This iOS application allows users to search for GitHub profiles, view profile de
 
 | Search | Profile | Bookmarks |
 |--------|---------|-----------|
-| ![Search](Screenshots/search.png) | ![Profile](Screenshots/profile.png) | ![Bookmarks](Screenshots/bookmarks.png) |
+| ![Search](Screenshots/search.jpeg) | ![Profile](Screenshots/profile.jpeg) | ![Favorites](Screenshots/bookmarks.jpeg) |
 
 > Add screenshots in the `Screenshots` folder with the filenames shown above.
 
@@ -55,3 +56,16 @@ This iOS application allows users to search for GitHub profiles, view profile de
 - macOS with Xcode 15 or later
 - iOS 16.0 or later
 - GitHub API (public access)
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/swi-parth-ft/iGithub.git
+   cd iGithub
+   
+2. Open the project in Xcode:
+   ```bash
+   open iGithub.xcodeproj
+
+3. Build and run the project on the simulator or a physical device.
