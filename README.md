@@ -31,7 +31,7 @@ This iOS application allows users to search for GitHub profiles, view profile de
 
 ## Screenshots
 
-| Search | Profile | Bookmarks |
+| Search | Profile | Favorites |
 |--------|---------|-----------|
 | ![Search](/search.jpeg) | ![Profile](/profile.jpeg) | ![Favorites](/favorites.jpeg) |
 
