@@ -35,13 +35,11 @@ This iOS application allows users to search for GitHub profiles, view profile de
 |--------|---------|-----------|
 | ![Search](/search.jpeg) | ![Profile](/profile.jpeg) | ![Favorites](/favorites.jpeg) |
 
-> Add screenshots in the `Screenshots` folder with the filenames shown above.
-
 ---
 
 ## Technologies Used
 
-- Swift 5
+- Swift
 - SwiftUI
 - Combine
 - Core Data
