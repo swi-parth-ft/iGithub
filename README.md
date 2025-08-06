@@ -33,7 +33,7 @@ This iOS application allows users to search for GitHub profiles, view profile de
 
 | Search | Profile | Bookmarks |
 |--------|---------|-----------|
-| ![Search](Screenshots/search.jpeg) | ![Profile](Screenshots/profile.jpeg) | ![Favorites](Screenshots/bookmarks.jpeg) |
+| ![Search](/search.jpeg) | ![Profile](/profile.jpeg) | ![Favorites](/favorites.jpeg) |
 
 > Add screenshots in the `Screenshots` folder with the filenames shown above.
 
