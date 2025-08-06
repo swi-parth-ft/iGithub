@@ -54,7 +54,7 @@ This iOS application allows users to search for GitHub profiles, view profile de
 ## Requirements
 
 - macOS with Xcode 15 or later
-- iOS 16.0 or later
+- iOS 17.0 or later
 
 ## Getting Started
 
